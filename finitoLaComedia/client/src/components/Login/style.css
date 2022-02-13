@@ -1,0 +1,61 @@
+.login-form {
+    width: 500px;
+    height: 500px;
+    background-color: brown;
+    z-index: 1000;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    height: 100vh;
+}
+
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    padding: 3vh 3vw;
+    padding-bottom: 10vh;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+}
+
+.signin-user-logo {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: salmon;
+}
+
+.fa-user {
+    font-size: 3rem;
+    color: white;
+    margin-top: 0.7rem;
+}
+
+.signin-form--input {
+    margin-top: 1rem;
+    padding: 0.7rem 1rem;
+    border: 1px solid #dbdbdb;
+    border-radius: 0.3rem;
+    background-color: #fafafa;
+    width: 100%;
+}
+
+button:disabled {
+    background: #edbdbd;
+    cursor: not-allowed;
+}
