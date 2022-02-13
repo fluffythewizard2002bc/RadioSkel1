@@ -15,7 +15,7 @@ const fileRoutes = require('./routes/file-upload-route');
 const port = process.env.PORT || 8080;
 const app = express();
 
-const publicPath = path.join(__dirname, "../front/build");
+const publicPath = path.join(__dirname, "../client/build");
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 app.use(cors());
 app.use(express.json());
